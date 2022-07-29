@@ -8,6 +8,8 @@
 <g fill="none" stroke="gold" stroke-width="16">
 <circle r="2340"/>
 <circle id="z" r="780"/>
+<circle r="2380"/>
+<circle id="z" r="780"/>
 <g id="t">
 <g id="s" transform="translate(0,780)">
 <circle r="780" />
