@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/kinesiologie.css">
     <title>MonVita - Kinesiologie</title>
 </head>
@@ -60,13 +61,15 @@
                         Es kann gestärkt werden:<br>
 
                         Selbstwertgefühl, Kraft, Achtsamkeit, Selbstliebe, Freude, Dankbarkeit, Mut, Klarheit,
-                        Selstentfaltung, Wille, Wahrheit, Gabe, Harmonie, Selbstbestimmung, Selbstbewusstsein, Verantwortung, Lebensziel,
+                        Selstentfaltung, Wille, Wahrheit, Gabe, Harmonie, Selbstbestimmung, Selbstbewusstsein,
+                        Verantwortung, Lebensziel,
                         Handeln, Ichstärke, Glückseligkeit.
 
                         <br>
                         Es kann gelöst werden:<br>
 
-                        Angst, Stressaktionen, Zweifel, Lernblockaden, Ablehnung, Einsamkeit, Gefühlslosigkeit, Sinnlosigkeit, Wut, Zorn, Ärger, Scham, innere Blockaden,
+                        Angst, Stressaktionen, Zweifel, Lernblockaden, Ablehnung, Einsamkeit, Gefühlslosigkeit,
+                        Sinnlosigkeit, Wut, Zorn, Ärger, Scham, innere Blockaden,
                         alte Muster.
                     </div>
                 </div>
@@ -79,22 +82,24 @@
     </div>
     <div id="imprint">
         <div id="imprint_contact">
-            <div style="font-weight: bold;">Naturheilpraxis Kristina Stadler</div>
-            <div>Nienstedter Strasse 4</div>
-            <div>38228 Salzgitter-Lesse</div>
-            <div>Mobil 015759541692</div>
-            <img id="imprint_image" src="../images/360_F_144542919_VT5CG0VuBlmt0AZEbJB9PsJ3RLBKJv8f.png" width="rem"></img>
+            <div id="imprint_line" style="font-weight: bold;">Naturheilpraxis Kristina Stadler</div>
+            <div id="imprint_line">Nienstedter Strasse 4</div>
+            <div id="imprint_line">38228 Salzgitter-Lesse</div>
+            <div id="imprint_line">Mobil 015759541692</div>
+            <img id="imprint_image" src="../images/360_F_144542919_VT5CG0VuBlmt0AZEbJB9PsJ3RLBKJv8f.png"
+                width="rem"></img>
         </div>
     </div>
 </body>
 <script>
-    document.addEventListener("DOMContentLoaded", function(event) { 
+    document.addEventListener("DOMContentLoaded", function (event) {
         var scrollpos = localStorage.getItem('scrollpos');
         if (scrollpos) window.scrollTo(0, scrollpos);
     });
 
-    window.onbeforeunload = function(e) {
+    window.onbeforeunload = function (e) {
         localStorage.setItem('scrollpos', window.scrollY);
     };
 </script>
+
 </html>

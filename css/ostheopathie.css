@@ -1,99 +1,6 @@
-@font-face {
-    font-family: 'YourFontName';
-    /*a name to be used later*/
-    src: url('../premier-free-style-db.ttf') format('truetype');
-    /*URL to font*/
-}
-
-body {
-    margin: 0px;
-    color: goldenrod;
-    font-family: 'YourFontName';
-    overflow-x: hidden;
-    background-color: cornsilk;
-}
-
-
-
-#navigation {
-    position: absolute;
-    top: 120vh;
-    right: 0;
-    background-color: rgb(119, 137, 242);
-    padding: 1rem;
-}
-
-a {
-    font-size: 2rem;
-    color: white;
-}
-
-br {
-    margin-bottom: 2rem;
-}
-
-img {
-    fill: rgb(119, 137, 242);
-}
-
-#header {
-    display: flex;
-    background-color: rgb(119, 137, 242);
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-
-}
-
-#header_content {
-    align-self: center;
-    text-align: center;
-}
-
-#header_content_logo {
-    align-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 200px;
-}
-
-#header_headline {
-    margin-left: auto;
-    margin-right: auto;
-    font-style: italic;
-    font-weight: bold;
-    width: 90%;
-    font-size: 3.5rem;
-}
-
-#header_headline2 {
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-style: italic;
-    font-weight: bold;
-    width: 85%;
-    font-size: 3rem;
-}
-
-#main {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 2rem;
-    justify-content: start;
-
-}
-
 #main_header {
-    margin-bottom: 1rem;
     margin-left: auto;
     margin-right: auto;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 3.5rem;
 }
 
 #main_content2{
@@ -112,24 +19,6 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: 2rem;
-}
-
-#main_underheader {
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 2.5rem;
-}
-
-#main_content {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-self: left;
-    width: 70%;
-    height: 100%;
 }
 
 #main_content_item {
@@ -158,32 +47,7 @@ img {
     width: 50%;
 }
 
-#main_content_item_text2 {
-    margin-top: 1rem;
-    width: 100%;
-}
-
 #main_content_item_text_helper {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
-}
-
-#imprint {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    background-color: rgb(119, 137, 242);
-    color: darkblue;
-
-    text-align: center;
-    justify-content: center;
-    padding: 2rem;
-}
-
-#imprint_contact {
-    align-self: center;
-    font-size: 1.5rem;
-}
-
-#imprint_image {
-    width: 15rem;
 }

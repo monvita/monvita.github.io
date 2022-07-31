@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/uebermich.css">
     <title>MonVita - Über mich</title>
 
@@ -153,18 +154,20 @@
             <div id="imprint_line">Nienstedter Strasse 4</div>
             <div id="imprint_line">38228 Salzgitter-Lesse</div>
             <div id="imprint_line">Mobil 015759541692</div>
-            <img id="imprint_image" src="../images/360_F_144542919_VT5CG0VuBlmt0AZEbJB9PsJ3RLBKJv8f.png" width="rem"></img>
+            <img id="imprint_image" src="../images/360_F_144542919_VT5CG0VuBlmt0AZEbJB9PsJ3RLBKJv8f.png"
+                width="rem"></img>
         </div>
     </div>
 </body>
 <script>
-    document.addEventListener("DOMContentLoaded", function(event) { 
+    document.addEventListener("DOMContentLoaded", function (event) {
         var scrollpos = localStorage.getItem('scrollpos');
         if (scrollpos) window.scrollTo(0, scrollpos);
     });
 
-    window.onbeforeunload = function(e) {
+    window.onbeforeunload = function (e) {
         localStorage.setItem('scrollpos', window.scrollY);
     };
 </script>
+
 </html>
