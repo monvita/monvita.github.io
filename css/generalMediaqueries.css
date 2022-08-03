@@ -1,0 +1,61 @@
+@media (max-aspect-ratio: 3/2) {
+    #header_content_logo {
+        font-size: 15vh;
+    }
+}
+
+@media (max-aspect-ratio: 4/3) {
+    #header_content_logo {
+        font-size: 11vh;
+    }
+}
+
+@media(orientation: portrait) {
+    #header_content {
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navigation {
+        display: none;
+    }
+
+    #header_image {
+        position: absolute;
+        height: auto;
+        width: 80vw;
+        top: 1vh;
+    }
+
+    #header_content_logo {
+        height: 50vh;
+        font-size: 22vw;
+        width: 100vw;
+    }
+
+    #header_text_left {
+        align-self: center;
+        width: 50vw;
+    }
+
+    #header_text_right {
+        align-self: center;
+        width: 50vw;
+    }
+    @media (min-aspect-ratio: 2/3) {
+        #header_headline {
+            font-size: 3vh;
+        }
+
+        #header_headlines {
+            margin-top: auto;
+            margin-bottom: 20vh;
+        }
+    }
+}
+
+
+
+/*TODO 1043-707 x 1080 komisches Layout*/
