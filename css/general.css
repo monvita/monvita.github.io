@@ -94,7 +94,6 @@ br {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 2rem;
     justify-content: start;
 }
 #main_content {
