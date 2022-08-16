@@ -11,6 +11,13 @@
 }
 
 @media(orientation: portrait) {
+    #main_header{
+        font-size: 4vh;
+    }
+    #main_underheader{
+        font-size: 3vh;
+        text-align: center;
+    }
     #header_content {
         height: 100vh;
         position: relative;
@@ -43,6 +50,9 @@
     #header_text_right {
         align-self: center;
         width: 50vw;
+    }
+    #imprint_image {
+        display: none;
     }
     @media (min-aspect-ratio: 2/3) {
         #header_headline {

@@ -51,17 +51,19 @@ br {
     text-align: center;
 }
 
-#header_image{
+#header_image {
     height: 56vh;
 }
-#header_text_left{
+
+#header_text_left {
     width: 28%;
     z-index: 1;
     margin: 1vw;
     text-align: right;
     direction: rtl;
 }
-#header_text_right{
+
+#header_text_right {
     width: 28%;
     z-index: 1;
     margin: 1vw;
@@ -85,8 +87,8 @@ br {
     width: 90%;
     font-size: 5vh;
 }
-#header_headlines {
-}
+
+#header_headlines {}
 
 /*Main*/
 #main {
@@ -96,6 +98,7 @@ br {
     width: 100%;
     justify-content: start;
 }
+
 #main_content {
     display: flex;
     justify-content: flex-start;
@@ -104,11 +107,14 @@ br {
     width: 70%;
     height: 100%;
 }
+
 #main_header {
+    text-align: center;
     font-style: italic;
     font-weight: bold;
     font-size: 3.5rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 /*Imprint*/
