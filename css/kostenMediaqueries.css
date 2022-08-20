@@ -1,0 +1,11 @@
+@media(orientation: portrait) {
+    #main{
+        align-items: center;
+    }
+    #main_content2_text {
+        width: 70vw;
+        margin-right: 5vw;
+        text-align: justify;
+        margin-bottom: 3vh;
+    }
+}
