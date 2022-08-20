@@ -13,19 +13,26 @@
 }
 
 #main_content_item_image {
+    float: left;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
     margin-top: 0rem;
-    width: 50%;
+    width: 30vw;
+    height: min-content;
 }
 
 #main_content_item_text {
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 3rem;
-    width: 50%;
 }
 
 #main_content_item_text_helper {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+#main{
+    align-items: center;
 }
