@@ -4,21 +4,23 @@
 }
 
 #main_content2{
-    width: 70%;
+    width: 100%;
 }
 #main_content2_header {
     font-style: italic;
     font-weight: bold;
-    text-align: left;
-    margin-top: 1.5rem;
-    font-size: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
 }
 
 #amin_content2_text {
     color: darkblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
+    text-align: justify;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 #main_content_item {
@@ -31,12 +33,16 @@
 }
 
 #main_content_item_image {
+    float: left;
     margin-top: 0rem;
     width: 50%;
     height: auto;
 }
 #main_content_item_image_image{
-    width: 100%;
+    width: 40%;
+    margin-right: 5%;
+    height: min-content;
+    float: left;
 }
 
 #main_content_item_text {
@@ -48,6 +54,15 @@
 }
 
 #main_content_item_text_helper {
+    text-align: justify;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     vertical-align: middle;
+}
+#main_content{
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    align-items: center;
 }

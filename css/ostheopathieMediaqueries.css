@@ -1,0 +1,13 @@
+@media (max-width:1700px){
+    #main_content_item_text_helper{
+        font-size: 1.5rem;
+        margin-right: calc(260px - 15vw + 1rem);
+    }
+}
+
+@media(orientation: portrait) {
+    #main_content_item_text_helper{
+        font-size: 2rem;
+        margin-right: 0;
+    }
+}
