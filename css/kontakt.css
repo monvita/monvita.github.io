@@ -1,13 +1,14 @@
 #main {
     font-size: 2rem;
     color: darkblue;
-
+    align-items: center;
 }
 
 #main_header {
     display: flex;
-    width:100vw;
+    width:70%;
     color: goldenrod;
+    margin-top: 5vw;
 }
 
 #main_content {
