@@ -19,6 +19,8 @@
 }
 
 #main_content_item {
+    color: goldenrod;
+    text-decoration: none;
     width: min-content;
     font-size: 2rem;
     margin: 1rem;
