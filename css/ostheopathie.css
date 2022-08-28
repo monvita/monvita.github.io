@@ -41,7 +41,7 @@
 #main_content_item_image_image{
     width: 40%;
     margin-right: 5%;
-    height: min-content;
+    height: auto;
     float: left;
 }
 
