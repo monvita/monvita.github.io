@@ -6,7 +6,12 @@
     /*URL to font*/
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
+    overflow-x: hidden;
     margin: 0px;
     color: goldenrod;
     font-family: 'YourFontName';
@@ -16,13 +21,13 @@ body {
 
 #openclose {
     /*font-family: Arial, Helvetica, sans-serif;*/
-    -webkit-text-size-adjust:none;
+    -webkit-text-size-adjust: none;
     user-select: none;
     cursor: pointer;
     position: fixed;
     right: 0px;
     width: 15vw;
-    height:15vw;
+    height: 15vw;
     font-size: 15vw;
     z-index: 4;
     color: white;
@@ -45,7 +50,7 @@ img {
 }
 
 a {
-    -webkit-text-size-adjust:none;
+    -webkit-text-size-adjust: none;
     font-size: 2rem;
     color: white;
 }
