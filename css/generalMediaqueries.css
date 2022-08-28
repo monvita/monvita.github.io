@@ -10,23 +10,41 @@
     }
 }
 
+@media(orientation: landscape) {
+    #openclose{
+        display: none;
+    }
+}
+
 @media(orientation: portrait) {
-    #main_header{
+    #navigation {
+        padding: 0rem;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        padding: 10%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 2;
+    }
+
+    #main_header {
         font-size: 4vh;
     }
-    #main_underheader{
+
+    #main_underheader {
         font-size: 3vh;
         text-align: center;
     }
+
     #header_content {
         height: 100vh;
         position: relative;
         display: flex;
         flex-direction: column;
-    }
-
-    #navigation {
-        display: none;
     }
 
     #header_image {
@@ -51,9 +69,11 @@
         align-self: center;
         width: 50vw;
     }
+
     #imprint_image {
         display: none;
     }
+
     @media (min-aspect-ratio: 2/3) {
         #header_headline {
             font-size: 3vh;

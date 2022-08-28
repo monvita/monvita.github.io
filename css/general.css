@@ -5,12 +5,29 @@
     src: url('../premier-free-style-db.ttf') format('truetype');
     /*URL to font*/
 }
+
 body {
     margin: 0px;
     color: goldenrod;
     font-family: 'YourFontName';
     overflow-x: hidden;
     background-color: cornsilk;
+}
+
+#openclose {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    user-select: none;
+    cursor: pointer;
+    position: fixed;
+    right: 0px;
+    width: 10vh;
+    height: 10vh;
+    font-size: 90px;
+    z-index: 3;
+    color: white;
+    background-color: rgb(119, 137, 242);
+    text-align: center;
+    line-height: 100px;
 }
 
 img {

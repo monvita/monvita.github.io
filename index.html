@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="openclose" onclick="toggleNavigation()">X</div>
     <div id="navigation">
         <a href="/index">> Startseite</a>
         <br>
@@ -93,6 +94,19 @@
     window.onbeforeunload = function (e) {
         localStorage.setItem('scrollpos', window.scrollY);
     };
+    //Toggle Navigation visibility & change openClose Icon
+    function toggleNavigation() {
+        const navigation = document.getElementById("navigation");
+        const openClose = document.getElementById("openclose")
+
+        if(getComputedStyle(navigation).display==="none"){
+            navigation.style.display = "flex"
+            openClose.innerHTML = "X"
+        }else{
+            navigation.style.display = "none"
+            openClose.innerHTML = "☰"
+        }
+    }
 </script>
 
 </html>
