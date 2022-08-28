@@ -20,7 +20,7 @@
     #navigation {
         padding: 0rem;
         position: fixed;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content:space-around;
         padding: 10%;

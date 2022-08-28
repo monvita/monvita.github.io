@@ -20,14 +20,14 @@ body {
     cursor: pointer;
     position: fixed;
     right: 0px;
-    width: 10vh;
-    height: 10vh;
-    font-size: 90px;
+    width: 15vw;
+    height:15vw;
+    font-size: 15vw;
     z-index: 3;
     color: white;
     background-color: rgb(119, 137, 242);
     text-align: center;
-    line-height: 100px;
+    line-height: 15vw;
 }
 
 img {
