@@ -23,7 +23,7 @@ body {
     width: 15vw;
     height:15vw;
     font-size: 15vw;
-    z-index: 3;
+    z-index: 4;
     color: white;
     background-color: rgb(119, 137, 242);
     text-align: center;
@@ -80,7 +80,7 @@ br {
 
 #header_text_left {
     width: 28%;
-    z-index: 1;
+    z-index: 2;
     margin: 1vw;
     text-align: right;
     direction: rtl;
@@ -88,7 +88,7 @@ br {
 
 #header_text_right {
     width: 28%;
-    z-index: 1;
+    z-index: 2;
     margin: 1vw;
     text-align: left;
 }

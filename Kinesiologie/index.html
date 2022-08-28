@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/generalMediaqueries.css">
     <link rel="stylesheet" href="../css/kinesiologie.css">
@@ -103,16 +104,16 @@
     window.onbeforeunload = function (e) {
         localStorage.setItem('scrollpos', window.scrollY);
     };
-    
+
     //Toggle Navigation visibility & change openClose Icon
     function toggleNavigation() {
         const navigation = document.getElementById("navigation");
         const openClose = document.getElementById("openclose")
 
-        if(getComputedStyle(navigation).display==="none"){
+        if (getComputedStyle(navigation).display === "none") {
             navigation.style.display = "flex"
             openClose.innerHTML = "X"
-        }else{
+        } else {
             navigation.style.display = "none"
             openClose.innerHTML = "☰"
         }
