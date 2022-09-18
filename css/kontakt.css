@@ -27,3 +27,8 @@ td {
 tr :last-child{
     padding-left: 2vh;
 }
+#main_content_location{
+width: 100%;
+height: auto;
+margin-bottom: 3rem;
+}
