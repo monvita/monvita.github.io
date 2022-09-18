@@ -13,4 +13,17 @@
 
 #main_content {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 2rem;
+    color: darkblue;
+    font-family: verdana;
+    font-size: 2rem;
+}
+
+tr :last-child{
+    padding-left: 2vh;
 }

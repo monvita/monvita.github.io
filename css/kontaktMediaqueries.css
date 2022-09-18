@@ -1,5 +1,16 @@
 @media(orientation: portrait) {
-    #main{
-        font-size: 1.3rem;
+    #main {
+        font-size: 1rem;
+        min-height: max-content;
+    }
+
+    td {
+        font-size: 1rem;
+    }
+
+    br {
+        display: block;
+        content: "";
+        margin-top: -1rem;
     }
 }
