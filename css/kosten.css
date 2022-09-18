@@ -1,3 +1,17 @@
-#main_content2_text{
+#main_content2_text {
     margin-left: 5vw;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding-left: 3vw;
+    vertical-align: top;
+    padding-bottom: 2rem;
+    color: darkblue;
+    font-family: verdana;
+    font-size: 2rem;
 }
