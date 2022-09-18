@@ -11,7 +11,7 @@
 }
 
 @media(orientation: landscape) {
-    #openclose{
+    #openclose {
         display: none;
     }
 }
@@ -22,7 +22,7 @@
         position: fixed;
         display: none;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content: space-around;
         padding: 10%;
         top: 0px;
         left: 0px;
@@ -55,9 +55,13 @@
     }
 
     #header_content_logo {
-        height: 50vh;
         font-size: 22vw;
-        width: 100vw;
+        height: calc(80vw + 1vh);
+        width: auto;
+    }
+    
+    #header_headlines{
+        margin-top: calc(50vh - (1vh + 80vw));
     }
 
     #header_text_left {
