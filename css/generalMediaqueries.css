@@ -74,6 +74,10 @@
         display: none;
     }
 
+    #imprint_contact {
+        font-size: 4vw;
+    }
+
     @media (min-aspect-ratio: 2/3) {
         #header_headline {
             font-size: 3vh;
